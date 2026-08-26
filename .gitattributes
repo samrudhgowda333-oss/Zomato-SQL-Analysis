@@ -1,0 +1,12 @@
+# Normalize line endings for text files
+* text=auto
+
+# Treat SQL and docs as text
+*.sql text
+*.md text
+*.text text
+
+# Treat data/output files as binary
+*.csv text
+*.xlsx binary
+*.pdf binary
